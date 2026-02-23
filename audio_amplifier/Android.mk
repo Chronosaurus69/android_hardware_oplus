@@ -20,7 +20,7 @@ ifeq ($(strip $(AUDIO_FEATURE_ENABLED_EXT_AMPLIFIER)),true)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := audio_amplifier.$(TARGET_BOARD_PLATFORM)
+LOCAL_MODULE := audio_amplifier.kona(TARGET_BOARD_PLATFORM)
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_SRC_FILES := audio_amplifier.c
 LOCAL_VENDOR_MODULE := true
