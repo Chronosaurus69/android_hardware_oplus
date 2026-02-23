@@ -38,7 +38,7 @@ LOCAL_HEADER_LIBRARIES += \
     libhardware_headers
 
 LOCAL_SHARED_LIBRARIES += \
-    audio.primary.$(TARGET_BOARD_PLATFORM) \
+    audio.primary.kona(TARGET_BOARD_PLATFORM) \
     libcutils \
     liblog \
     libtinyalsa
